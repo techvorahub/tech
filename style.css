@@ -1,0 +1,100 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #072b61; /* Deep navy */
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #d4af37; /* Gold accent */
+}
+
+.subheadline {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.flyer {
+    text-align: center;
+    padding: 20px;
+}
+
+.flyer-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details h2 {
+    color: #072b61;
+    margin-top: 20px;
+}
+
+.details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.details ul li {
+    background: #e0e0e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cta {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #072b61;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
