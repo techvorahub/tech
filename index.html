@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omatechvora Hub Limited - Frontend Bootcamp</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '889249397552913');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=889249397552913&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </head>
 <body>
     <header>
@@ -44,12 +61,25 @@
 
     <section class="cta">
         <p>Ready to begin? Message us directly on WhatsApp to secure your spot!</p>
-        <a href="https://wa.me/2347052351742" class="whatsapp-button" target="_blank">Chat on WhatsApp</a>
+       <a href="https://wa.me/2347052351742"
+   id="whatsapp-btn"
+   target="_blank"
+   class="btn">
+   Chat on WhatsApp
+</a>
     </section>
 
     <footer>
         <p>Omatechvora Hub Limited | Learn. Build. Grow. Innovate.</p>
         <p>Contact us: techvorahub@gmail.com | +234 7052351742</p>
     </footer>
+
+    <script>
+document.getElementById("whatsapp-btn").addEventListener("click", function () {
+
+    fbq('track', 'Lead');
+
+});
+</script>
 </body>
 </html>
